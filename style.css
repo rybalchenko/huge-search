@@ -29,27 +29,23 @@ body {
 }
 
 .ba-wrapper {
-	max-width: 1100px;
+	max-width: 1050px;
 	margin: 0 auto;
+	padding: 60px 0 0 0;
 }
 
 .ba-content {
-	padding: 0 0 30px 0;
-}
-
-.ba-form {
-	position: relative;
-	padding: 30px 0 150px 20px;
+	padding: 30px 0 0 0;
 }
 
 .ba-input {
-	position: absolute;
 	width: 80%;
 	height: 120px;
 	background-color: #f1f1f1;
 	border: none;
 	cursor: pointer;
-	font-size: 100px;
+	font-size: 90px;
+	font-weight: 700;
 }
 
 .ba-input[class="ba-input"]:hover {
@@ -60,8 +56,8 @@ body {
 	position: absolute;
 	width: 90px;
 	height: 90px;
-	right: 20px;
-	top: 50px;
+	right: 240px;
+	top: 90px;
 	background: transparent url(img/magnifier.svg) no-repeat center center;
 	border: none;
 }
@@ -84,23 +80,26 @@ input[type="search"] {
 }
 
 .ba-column {
-	width: 33%;
-	padding: 0 10px 0 0;
+	width: 30%;
+	margin: 0 10px;
 	display: inline-block;
 }
 
-.ba-circle {
-	border-radius: 50%;
+.ba-column1 {
+    width: 30%;
+	margin: 0 20px;
+	display: inline-block;
 }
 
-h2 {
-	margin: 0 0 10px 25px;
+.ba-column  h2, .ba-column1 h2 {
+	margin: 0 0 10px 0;
+	text-transform: uppercase;
 }
 
-h3 {
+.ba-list h3 {
 	display: inline-block;
 	vertical-align: middle;
-	padding-bottom: 20px;
+	max-width: calc(100% - 70px);
 }
 
 a {
@@ -109,13 +108,16 @@ a {
 
 .ba-list a img {
 	display: inline-block;
-	margin: 10px;
+	vertical-align: middle;
+	padding-right: 10px;
+	width: 50px;
 }
 
 .ba-list a {
 	display: block;
+	padding: 10px;
 	background-color: #EBEBEC;
-	margin: 0 20px 10px;
+	margin: 0 0 10px 0;
 	border-radius: 5px;
 	cursor: pointer;
 	background-color: rgba(118,117,128,0.05);
@@ -129,4 +131,3 @@ a {
 .ba-button:hover{
 color:  #ec5a62;
 }
-
