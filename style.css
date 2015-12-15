@@ -39,7 +39,7 @@ body {
 }
 
 .ba-input {
-	width: 80%;
+	width: 90%;
 	height: 120px;
 	background-color: #f1f1f1;
 	border: none;
@@ -53,11 +53,8 @@ body {
 }
 
 .ba-button {
-	position: absolute;
-	width: 90px;
-	height: 90px;
-	right: 240px;
-	top: 90px;
+	width: 80px;
+	height: 80px;
 	background: transparent url(img/magnifier.svg) no-repeat center center;
 	border: none;
 }
